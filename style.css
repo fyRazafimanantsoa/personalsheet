@@ -1,0 +1,15 @@
+/* 
+  LOGIC BLUEPRINT: Basic Spreadsheet Styling
+  
+  TASK:
+  1. Style the Grid Container:
+     - Use 'display: grid' or 'display: flex'.
+     - If using grid, how do you define the columns? (Hint: 'grid-template-columns').
+  2. Style the Cells:
+     - Give them a border, a fixed width, and a fixed height.
+     - Ensure they look like a spreadsheet (square/rectangular).
+  3. Utility Classes:
+     - Create a class for when a cell is "selected" or "active".
+*/
+
+/* Write your CSS here... */
