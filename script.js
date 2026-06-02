@@ -22,3 +22,23 @@
 // Step 2: Write a function to generate the grid...
 
 // Step 3: Call the function when the page loads...
+const ROWS = 10;
+const COLS =10;
+const state ={};
+const container = document.getElementById('spreadsheet');
+
+function initSpreadsheet(rows, cols) {
+   for( let i=0; i<cols; i++ ){
+      let colID = String.fromCharCode(65+i)
+      for(let j=0; j<rows; j++){
+         const cellId = `${colID}${j}`;
+         const cell= document.createElement('div');
+         cell.className = ('cell');
+         cell.id= cellId;
+ 
+         container.appendChild(cell)
+      }
+   }
+}
+
+initSpreadsheet(ROWS, COLS);
